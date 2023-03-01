@@ -72,13 +72,8 @@ export default function Home() {
                 <AiFillLinkedin className="cursor-pointer" />
               </a>
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image
-                src={dawit}
-                alt="dawit"
-                layout="fill"
-                style={{ objectFit: "cover" }}
-              />
+            <div className="mx-auto fill bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden mt-20 md:h-96 md:w-96">
+              <Image src={dawit} alt="dawit" style={{ objectFit: "cover" }} />
             </div>
           </div>
         </section>
@@ -100,13 +95,12 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <Image
-                  className="rounded-lg object-cover"
+                  className="rounded-lg object-cover responsive"
                   alt="techblog"
-                  layout="responsive"
                   src={techblog}
                 />
-                <div class="absolute inset-0 opacity-0 hover:opacity-100 flex justify-center items-center">
-                  <p class="text-gray-700 font-bold text-5xl">github</p>
+                <div className="absolute inset-0 opacity-0 hover:opacity-100 flex justify-center items-center">
+                  <p className="text-gray-700 font-bold text-5xl">github</p>
                 </div>
               </a>
             </div>
@@ -117,13 +111,12 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <Image
-                  className="rounded-lg object-cover"
+                  className="rounded-lg object-cover responsive"
                   alt="s3upload"
-                  layout="responsive"
                   src={s3upload}
                 />
-                <div class="absolute inset-0 opacity-0 hover:opacity-100 flex justify-center items-center">
-                  <p class="text-white font-bold text-5xl">github</p>
+                <div className="absolute inset-0 opacity-0 hover:opacity-100 flex justify-center items-center">
+                  <p className="text-white font-bold text-5xl">github</p>
                 </div>
               </a>
             </div>
@@ -134,13 +127,12 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <Image
-                  className="rounded-lg object-cover"
+                  className="rounded-lg object-cover responsive"
                   alt="espnscraper"
-                  layout="responsive"
                   src={espnscraper}
                 />
-                <div class="absolute inset-0 opacity-0 hover:opacity-100 flex justify-center items-center">
-                  <p class="text-gray-700 font-bold text-5xl">github</p>
+                <div className="absolute inset-0 opacity-0 hover:opacity-100 flex justify-center items-center">
+                  <p className="text-gray-700 font-bold text-5xl">github</p>
                 </div>
               </a>
             </div>
@@ -151,13 +143,12 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <Image
-                  className="rounded-lg object-cover"
+                  className="rounded-lg object-cover responsive"
                   alt="ems"
-                  layout="responsive"
                   src={ems}
                 />
-                <div class="absolute inset-0 opacity-0 hover:opacity-100 flex justify-center items-center">
-                  <p class="text-gray-700 font-bold text-5xl">github</p>
+                <div className="absolute inset-0 opacity-0 hover:opacity-100 flex justify-center items-center">
+                  <p className="text-gray-700 font-bold text-5xl">github</p>
                 </div>
               </a>
             </div>
