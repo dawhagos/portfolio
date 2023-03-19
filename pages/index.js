@@ -6,7 +6,7 @@ import dawit from "../public/dawit-avataaar.png";
 import Image from "next/image";
 import techblog from "../public/tech-blog.png";
 import s3upload from "../public/s3-upload.png";
-import espnscraper from "../public/EspnScraper.png";
+import espnscraper from "../public/espn-web-scraper.png";
 import ems from "../public/employee-management-system.png";
 
 export default function Home() {
@@ -34,7 +34,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1ygNO_JoRQKRVBgkp4ITsjvF_692PEbJH/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1o3gjND1jnu3Y4Bx1XWV3t3od30QALkvv/view?usp=share_link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -100,7 +100,7 @@ export default function Home() {
                   src={techblog}
                 />
                 <div className="absolute inset-0 opacity-0 hover:opacity-100 flex justify-center items-center">
-                  <p className="text-gray-700 font-bold text-5xl">github</p>
+                  <p className="text-gray-700 font-bold text-5xl">try it out</p>
                 </div>
               </a>
             </div>
@@ -116,13 +116,13 @@ export default function Home() {
                   src={s3upload}
                 />
                 <div className="absolute inset-0 opacity-0 hover:opacity-100 flex justify-center items-center">
-                  <p className="text-white font-bold text-5xl">github</p>
+                  <p className="text-white font-bold text-5xl">source code</p>
                 </div>
               </a>
             </div>
             <div className="basis-1/3 flex-1 hover:opacity-50 cursor-pointer relative">
               <a
-                href="https://github.com/dawhagos/EspnScraper"
+                href="https://espn-web-scraper.onrender.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -132,7 +132,7 @@ export default function Home() {
                   src={espnscraper}
                 />
                 <div className="absolute inset-0 opacity-0 hover:opacity-100 flex justify-center items-center">
-                  <p className="text-gray-700 font-bold text-5xl">github</p>
+                  <p className="text-gray-700 font-bold text-5xl">try it out</p>
                 </div>
               </a>
             </div>
@@ -148,7 +148,9 @@ export default function Home() {
                   src={ems}
                 />
                 <div className="absolute inset-0 opacity-0 hover:opacity-100 flex justify-center items-center">
-                  <p className="text-gray-700 font-bold text-5xl">github</p>
+                  <p className="text-gray-700 font-bold text-5xl">
+                    source code
+                  </p>
                 </div>
               </a>
             </div>
