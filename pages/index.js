@@ -90,7 +90,7 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 relative hover:opacity-50 cursor-pointer">
               <a
-                href="https://github.com/dawhagos/tech-blog"
+                href="https://dawit-develops.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
